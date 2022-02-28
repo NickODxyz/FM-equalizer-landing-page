@@ -1,5 +1,4 @@
 <h1 align="center">Frontend Mentor - Equalizer Landing Page</h1>
-<h1 align="center">Incomplete</h1>
 
 ![Preview](https://github.com/NickODxyz/FM-equalizer-landing-page/blob/main/Preview.JPG)
 ![Preview Extension](https://github.com/NickODxyz/FM-equalizer-landing-page/blob/main/Preview-ext-1.JPG)

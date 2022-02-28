@@ -29,7 +29,7 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 
 ## Site links
 
-Hosted [Live Site]()
+Hosted [Live Site](https://nickodxyz.github.io/FM-equalizer-landing-page/)
 
 Frontend Mentor [Solution Page]()
 

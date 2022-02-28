@@ -1,0 +1,174 @@
+:root {
+    /* Colours */
+    --green: hsl(177, 68%, 64%);
+    --orange-dark: hsl(12, 94%, 65%);
+    --orange-light: hsl(33, 100%, 70%);
+    --white: hsl(20, 33%, 98%);
+    --dark: hsl(244, 23%, 12%);
+
+    /* Font-Family */
+    --font: "IBM Plex Sans";
+}
+
+body {
+    font-family: var(--font);
+    display: grid;
+    place-content: center;
+}
+
+/* Typography */
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.045rem;
+}
+h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+a {
+    text-decoration: none;
+}
+.main-text,
+.footer-text {
+    font-size: 1.6rem;
+    line-height: 1.625;
+}
+.hero-text {
+    font-size: 1.8rem;
+    line-height: 1.555;
+}
+
+/* Utilities */
+.set-flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.wrapper {
+    max-width: 144rem;
+    background: var(--white) url("../assets/bg-main-mobile.png") no-repeat 0px -250px;
+}
+
+/*
+Header Section
+*/
+.header-container {
+    margin: 4rem 0 0 2.4rem;
+}
+.logo {
+    width: 14.6rem;
+    height: 3.2rem;
+}
+
+/*
+Main Section
+*/
+.main-container {
+    margin: 6.4rem 2.4rem 0 2.4rem;
+    gap: 2rem;
+}
+
+/*
+Hero Section
+*/
+.hero-container {
+    margin-top: 16.6rem;
+    background: var(--dark) url("../assets/bg-pattern-2.svg") no-repeat center top;
+    position: relative;
+    border-radius: 1.2rem;
+}
+.hero-img {
+    width: 20.8rem;
+    height: 43rem;
+    margin-left: 8.1rem;
+    top: -98px;
+    position: absolute;
+}
+.hero-text-container {
+    margin-top: 38rem;
+    padding: 4.8rem 3.65rem;
+    background-color: var(--orange-dark);
+    border-radius: 1.2rem;
+    color: var(--white);
+    gap: 1.2rem;
+}
+.hero-price-container {
+    margin-top: 3.6rem;
+    gap: 1.6rem;
+    align-items: center;
+}
+.price {
+    font-size: 6.5rem;
+    font-weight: 700;
+    line-height: 0.8;
+}
+
+/*
+Hero Buttons*/
+.hero-btn-container {
+    margin-top: 3.2rem;
+    gap: 1.6rem;
+}
+.btn {
+    width: 29.6rem;
+    height: 6.1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.777;
+    letter-spacing: 0.018rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    gap: 0.8rem;
+}
+.btn-apple {
+    color: var(--white);
+    background-color: var(--dark);
+    transition: background-color 0.4s;
+}
+.btn-apple:hover,
+.btn-apple:focus {
+    background-color: var(--green);
+}
+.btn-android {
+    color: var(--dark);
+    background-color: var(--white);
+    transition: background-color 0.4s;
+}
+.btn-android:hover,
+.btn-android:focus {
+    background-color: var(--orange-light);
+}
+
+/*
+Footer Section
+*/
+.footer-container {
+    margin: 6.44rem 0 8rem 2.4rem;
+    gap: 6.4rem;
+}
+.footer-text-container {
+    gap: 3.2rem;
+    max-inline-size: 50ch;
+}
+.email {
+    font-weight: 700;
+}
+.socials-container {
+    gap: 2rem;
+}
+.social-icon {
+    color: var(--dark);
+    font-size: 2rem;
+    transition: color 0.4s;
+}
+.social-icon:hover,
+.social-icon:focus {
+    color: var(--orange-light);
+}

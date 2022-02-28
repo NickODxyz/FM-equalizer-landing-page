@@ -30,7 +30,7 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 
 Hosted [Live Site](https://nickodxyz.github.io/FM-equalizer-landing-page/)
 
-Frontend Mentor [Solution Page]()
+Frontend Mentor [Solution Page](https://www.frontendmentor.io/solutions/equalizer-landing-page-flexbox-D0w4Yz-iX5)
 
 <br>
 

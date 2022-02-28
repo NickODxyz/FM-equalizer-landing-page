@@ -1,7 +1,8 @@
 <h1 align="center">Frontend Mentor - Equalizer Landing Page</h1>
 <h1 align="center">Incomplete</h1>
 
-![Alt Text Here]()
+![Preview](https://github.com/NickODxyz/FM-equalizer-landing-page/blob/main/Preview.JPG)
+![Preview Extension](https://github.com/NickODxyz/FM-equalizer-landing-page/blob/main/Preview-ext-1.JPG)
 
 <br>
 
@@ -13,14 +14,13 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 
 ## What I learned
 
-***LEARNED HERE***
+`Background-image` placement. More to the point, having more than 1 at a time on this project. So had fun understanding the order they should go in and positioning them both correctly
 
 <br>
 
 ## Built with
 
 - Mobile first workflow
-- Grid
 - Flexbox
 - Semantic HTML5 markup
 - CSS custom properties
@@ -38,8 +38,6 @@ Frontend Mentor [Solution Page]()
 ## Useful resources
 
 [Figma](https://www.figma.com)
-
-[CSS-Tricks - GRID](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 [w3schools](https://www.w3schools.com/)
 

@@ -264,8 +264,8 @@ Footer Section
     .wrapper {
         background-image: url("../assets/bg-pattern-1.svg"), url("../assets/bg-main-desktop.png");
         background-repeat: no-repeat, no-repeat;
-        background-position: right -30px, -250px -300px;
-        background-size: 266px 400px, auto;
+        background-position: right -40px, -250px -300px;
+        background-size: 312px 468px, auto;
     }
 
     /*

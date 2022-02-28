@@ -1,31 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+        <script src="https://kit.fontawesome.com/c3ec0273d0.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Frontend Mentor | Equalizer landing page | NickOD.xyz</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- 
+            Header Section
+            -->
+            <header class="header-container">
+                <img src="./assets/logo.svg" alt="Equalizer" class="logo" />
+            </header>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+            <!-- 
+            Main Section
+            -->
+            <main role="main" class="main-container set-flex flex-col">
+                <h1 class="heading">We make your music sound extraordinary.</h1>
+                <p class="main-text">
+                    A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music
+                    sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain
+                    control, reverb, and more!
+                </p>
+            </main>
 
-  Download v1.3
-  What is it?
+            <!-- 
+            Hero Section
+            -->
+            <section class="hero-container set-flex flex-col">
+                <img src="./assets/illustration-app.png" alt="" class="hero-img" />
+                <div class="hero-text-container set-flex flex-col">
+                    <h2 class="hero-heading">Premium EQ</h2>
+                    <p class="hero-text">
+                        Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your
+                        listening experience to a whole new level and access all our incredible features!
+                    </p>
+                    <div class="hero-price-container set-flex">
+                        <span class="price">$4</span>
+                        <p class="hero-text">/ month</p>
+                    </div>
+                    <div class="hero-btn-container set-flex flex-col">
+                        <a href="#" class="btn btn-apple set-flex">
+                            <img src="./assets/icon-apple.svg" alt="" class="apple-logo" />
+                            iOS Download
+                        </a>
+                        <a href="#" class="btn btn-android set-flex">
+                            <img src="./assets/icon-android.svg" alt="" class="andriod-logo" />
+                            Android Download
+                        </a>
+                    </div>
+                </div>
+            </section>
 
-  01
-  Built for modern use
-
-  Smarter meetings, all in one place
-
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
-
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-  Download v1.3
-</body>
+            <!-- 
+            Footer Section
+            -->
+            <footer class="footer-container set-flex flex-col">
+                <div class="footer-text-container set-flex flex-col">
+                    <img src="./assets/logo.svg" alt="Equalizer" class="logo" />
+                    <div class="footer-text-inner-container">
+                        <p class="footer-text">All rights reserved © Equalizer 2021</p>
+                        <p class="footer-text">
+                            Have any problems? Contact us via social media or email us at
+                            <span class="email">equalizer@example.com</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="socials-container set-flex">
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook-square" aria-label="Facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-instagram" aria-label="Instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-twitter" aria-label="Twitter"></i>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>

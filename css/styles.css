@@ -96,7 +96,9 @@ Hero Section
     background-color: var(--orange-dark);
     border-radius: 1.2rem;
     color: var(--white);
-    gap: 1.2rem;
+}
+.hero-text {
+    margin-top: 1.2rem;
 }
 .hero-price-container {
     margin-top: 3.6rem;
@@ -110,7 +112,8 @@ Hero Section
 }
 
 /*
-Hero Buttons*/
+Hero Buttons
+*/
 .hero-btn-container {
     margin-top: 3.2rem;
     gap: 1.6rem;
@@ -155,6 +158,8 @@ Footer Section
 }
 .footer-text-container {
     gap: 3.2rem;
+}
+.footer-text-inner-container {
     max-inline-size: 50ch;
 }
 .email {
@@ -171,4 +176,181 @@ Footer Section
 .social-icon:hover,
 .social-icon:focus {
     color: var(--orange-light);
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        background-image: url("../assets/bg-pattern-1.svg"), url("../assets/bg-main-tablet.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: 538px -30px, -400px -250px;
+        background-size: 266px 400px, auto;
+    }
+
+    /*
+    Header Section
+    */
+    .header-container {
+        margin: 6.2rem 0 0 4rem;
+    }
+
+    /*
+    Main Section
+    */
+    .main-container {
+        margin: 9.5rem 0 0 3.9rem;
+        gap: 2.8rem;
+    }
+    .heading {
+        font-size: 6.4rem;
+        line-height: 1;
+        letter-spacing: 0.073rem;
+        max-inline-size: 16ch;
+    }
+    .main-text {
+        font-size: 1.8rem;
+        line-height: 1.555;
+        max-inline-size: 47ch;
+    }
+
+    /*
+    Hero Section
+    */
+    .hero-container {
+        margin: 24.9rem 3.9rem 0 3.3rem;
+        background: var(--dark) url("../assets/bg-pattern-2.svg") no-repeat 215px -40px;
+        position: relative;
+        width: 69.6rem;
+        height: 60rem;
+    }
+    .hero-img {
+        width: 27rem;
+        height: 55.6rem;
+        margin-left: 6.4rem;
+        top: -138px;
+    }
+    .hero-text-container {
+        margin-top: 0rem;
+        padding: 4.8rem 4.85rem;
+        width: 40rem;
+        position: absolute;
+        top: 150px;
+        right: 58px;
+    }
+
+    /*
+    Hero Buttons
+    */
+    .btn {
+        gap: 1.6rem;
+    }
+
+    /*
+    Footer Section
+    */
+    .footer-container {
+        margin: 18.3rem 3.9rem 8.5rem 3.3rem;
+        gap: 23rem;
+        flex-direction: row;
+    }
+    .footer-text-inner-container {
+        max-inline-size: 61ch;
+    }
+    .socials-container {
+        margin-top: 9.4rem;
+    }
+}
+
+@media (min-width: 1110px) {
+    .wrapper {
+        background-image: url("../assets/bg-pattern-1.svg"), url("../assets/bg-main-desktop.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: right -30px, -250px -300px;
+        background-size: 266px 400px, auto;
+    }
+
+    /*
+    Header Section
+    */
+    .header-container {
+        margin: 6.2rem 0 0 16.6rem;
+    }
+
+    /*
+    Main Section
+    */
+    .main-container {
+        margin: 12.7rem 0 0 16.5rem;
+        gap: 4rem;
+    }
+    .heading {
+        font-size: 8.8rem;
+        letter-spacing: 0.1rem;
+        max-inline-size: 17ch;
+    }
+    .main-text {
+        font-size: 2rem;
+        line-height: 1.7;
+        max-inline-size: 69ch;
+    }
+
+    /*
+    Hero Section
+    */
+    .hero-container {
+        margin: 32.1rem 16.5rem 0 16.5rem;
+        background: var(--dark) url("../assets/bg-pattern-2.svg") no-repeat 336px -40px;
+        width: 111rem;
+    }
+    .hero-img {
+        width: 31.2rem;
+        height: 64.2rem;
+        margin-left: 10.2rem;
+        top: -213px;
+    }
+    .hero-text-container {
+        padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+        width: 44.6rem;
+        position: absolute;
+        top: 90px;
+        right: 95px;
+    }
+    .hero-heading {
+        font-size: 4rem;
+        line-height: 1.3;
+    }
+    .hero-text {
+        margin-top: 2.2rem;
+        font-size: 2rem;
+        line-height: 1.7;
+    }
+    .hero-price-container {
+        margin-top: 3.9rem;
+    }
+
+    /*
+    Hero Buttons
+    */
+    .hero-btn-container {
+        margin-top: 4.6rem;
+    }
+    .btn {
+        width: 33.3rem;
+        gap: 1.6rem;
+    }
+
+    /*
+    Footer Section
+    */
+    .footer-container {
+        margin: 20.2rem 0rem 9.1rem 16.5rem;
+        gap: 35.9rem;
+    }
+    .footer-text-container {
+        flex-direction: row;
+        gap: 13.7rem;
+    }
+    .socials-container {
+        margin-top: 0rem;
+        align-self: center;
+    }
 }
